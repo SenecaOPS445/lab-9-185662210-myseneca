@@ -42,6 +42,6 @@
 ## db-[99:101]-node.example.com
 
 [ops445]
-cduloy	ansible_host=myvmlab.senecapolytechnic.ca ansible_port=7002 ansible_become_pass=6k7[vtGK)t
+cduloy	ansible_host=myvmlab.senecapolytechnic.ca ansible_port=7002
 
 
