@@ -1,0 +1,41 @@
+
+PLAY [cduloy] ******************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [cduloy]
+
+TASK [update Apache (httpd) installed] *****************************************
+ok: [cduloy]
+
+TASK [restart apache] **********************************************************
+changed: [cduloy]
+
+TASK [install extra packages repository for enterprise Linux (EPEL)] ***********
+ok: [cduloy]
+
+TASK [remove tree package] *****************************************************
+changed: [cduloy]
+
+TASK [set hostname to Seneca ID] ***********************************************
+ok: [cduloy]
+
+TASK [create a new user] *******************************************************
+ok: [cduloy]
+
+TASK [Allow SSH access without password] ***************************************
+ok: [cduloy]
+
+TASK [create a list of directories] ********************************************
+ok: [cduloy] => (item=1)
+ok: [cduloy] => (item=2)
+ok: [cduloy] => (item=3)
+ok: [cduloy] => (item=4)
+ok: [cduloy] => (item=5)
+ok: [cduloy] => (item=6)
+ok: [cduloy] => (item=7)
+ok: [cduloy] => (item=8)
+ok: [cduloy] => (item=9)
+
+PLAY RECAP *********************************************************************
+cduloy                     : ok=9    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

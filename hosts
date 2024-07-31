@@ -13,7 +13,6 @@
 ## green.example.com
 ## blue.example.com
 ## 192.168.100.1
-## 192.168.100.10
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
@@ -43,4 +42,6 @@
 ## db-[99:101]-node.example.com
 
 [ops445]
-jkwok	ansible_host=myvmlab.senecapolytechnic.ca ansible_port=7850
+cduloy	ansible_host=myvmlab.senecapolytechnic.ca ansible_port=7002 ansible_become_pass=6k7[vtGK)t
+
+
